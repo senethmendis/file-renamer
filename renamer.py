@@ -3,11 +3,11 @@ import re
 from natsort import natsorted
 
 # Configuration 
-folder_path = r"C:\Users\seneth\Videos\Kaiju"
-name = "Kaiju No. 8"
-year = 2022
-season_number = 1
-video_extensions = ['.mp4', '.mkv', '.avi', '.mov', '.flv']
+folder_path = r"C:\Users\mendi\Downloads\Video"
+name = "Overlord"
+year = 2015
+season_number = 2
+video_extensions = ['.mp4', '.mkv', '.avi', '.mov', '.flv','.ts']
 
 def rename_files():
     files = [f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f))]
